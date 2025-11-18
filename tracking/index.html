@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="page" lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content=""/>
+    <title>Melbets</title>
+<style>
+    .wrapper{
+         margin: 0;
+  height: 100vh;
+        background-image: url("../public/melbetss.jpg");
+        display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url("../public/melbetss.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+    }
+.wrapper::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1
+}
+
+.container {
+    position: relative;
+    z-index: 2; 
+    width: 40%;
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.btn{
+    padding: 15px 50px 15px 50px;
+    background-color: #dedede;
+    border-radius: 9px;
+    color: #181818;
+
+}
+.btn2{
+    background-color: #203864;
+    padding: 15px 50px 15px 50px;
+    border-radius: 9px;
+    color: #fff;
+}
+.containter-btn{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+}
+    @media screen and (max-width: 1000px) {
+      .container {
+        width: 80%;
+      }
+      .btn{
+        padding: 20px;
+      }
+      .btn2{
+        padding: 20px;
+}
+    }
+    @media screen and (max-width: 600px) {
+      .checkbox {
+        display: block !important;
+        left: 5px;
+        top: 23%;
+        width: 13%;
+        height: 35px;
+      }
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+      .checkbox {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body class="wrapper">
+      <div class="container">
+        <div style="width: 100%;">
+            <p style="color: #515151;">
+                We use third-party cookies to personalize content and to analyze web traffic. By clicking "Accept" you agree we can store cookies on your device in accordance with our Privacy Policy.
+            </p>
+            <div class="containter-btn">
+                <a class="btn" href="https://blogreview.pro/skins/review-melbet-john/" style="text-decoration: none;">
+                    Decline
+                </a>
+                <a class="btn2" href="https://blogreview.pro/skins/review-melbet-john/" style="text-decoration: none;">
+                    Accept
+                </a>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
+   <script>
+  let redirected = false;
+  document.body.addEventListener("click", () => {
+    if (!redirected) {
+      redirected = true;
+      timeoutId = setTimeout(() => {
+        window.location.href = "https://blogreview.pro/skins/review-melbet-john/";
+      }, 300);
+    }
+  });
+</script>
